@@ -14,6 +14,8 @@ function moveBackground(event) {
     }
 }
 
+document.addEventListener("mousemove", moveBackground);
+
 function toggleContrast() {
     contrastToggle = !contrastToggle;
     if (contrastToggle) {
