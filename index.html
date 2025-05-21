@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico"/>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
     <script
       src="https://kit.fontawesome.com/626ee27be3.js"
       crossorigin="anonymous"
@@ -69,8 +69,10 @@
             loves crafting clean, responsive websites and bringing ideas to life
             through code. <br />
             Want to know more? Check out a bit
-            <b class="title--secondary click" onclick="toggleModal()"
-              >about me.</b
+            <a href="#"
+              ><b class="title--secondary click" onclick="toggleModal()"
+                >about me.</b
+              ></a
             >
           </p>
           <div class="social__list">
@@ -328,9 +330,15 @@
     <footer>
       <div class="container">
         <div class="row footer__row">
-          <figure>
-            <img src="./assets/logo.png" alt="" class="footer__logo--img" />
-          </figure>
+          <a href="#" class="footer__anchor footer__social--link">
+            <figure>
+              <img src="./assets/logo.png" alt="" class="footer__logo--img" />
+            </figure>
+            <span class="footer__logo--popper">
+              Top
+              <i class="fa-solid fa-arrow-up"></i>
+            </span>
+          </a>
           <div class="footer__social--list">
             <a
               href=""
