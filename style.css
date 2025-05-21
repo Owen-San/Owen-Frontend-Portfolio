@@ -209,11 +209,12 @@ nav,
     font-size: 32px;
     border-radius: 50%;
     border: none;
-    background-color: #242424;
+    background-color: #000000;
     color: #FFFFFF;
     position: fixed;
     bottom: 32px;
     right: 40px;
+    z-index: 60;
 }
 
 .scroll {
