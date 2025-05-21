@@ -1,6 +1,15 @@
-// template_ckt4sz6
-// service_61452yq
-// 02mUGB3qLcR-1DAN-
+let isModalOpen = false
+let contrastToggle = false
+
+function toggleContrast() {
+    contrastToggle = !contrastToggle;
+    if (contrastToggle) {
+        document.body.classList += " dark-theme"
+    }
+    else {
+        document.body.classList.remove("dark-theme")
+    }
+}
 
 
 function contact(event) {
@@ -29,8 +38,6 @@ function contact(event) {
         
     }, 1000)
 }
-
-let isModalOpen = false
 
 function toggleModal() {
     if (isModalOpen) {

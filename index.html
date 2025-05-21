@@ -47,10 +47,11 @@
             <a
               href="#"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
-              onclick="toggleModal()">Contact</a
+              onclick="toggleModal()"
+              >Contact</a
             >
           </li>
-          <li class="nav__link click">
+          <li class="nav__link click" onclick="toggleContrast()">
             <a href="#" class="nav__link--anchor link__hover-effect"
               ><i class="fa-solid fa-circle-half-stroke"></i
             ></a>
@@ -59,14 +60,16 @@
       </nav>
       <header class="header">
         <div class="header__content">
-          <h1 class="title">Hey</h1>
+          <h1 class="title title-dark">Hey</h1>
           <h1 class="title title--secondary">I'm Owen.</h1>
           <p class="header__para">
             I'm a <b class="title--secondary">Frontend Software Engineer</b> who
             loves crafting clean, responsive websites and bringing ideas to life
             through code. <br />
             Want to know more? Check out a bit
-            <b class="title--secondary click" onclick="toggleModal()">about me.</b>
+            <b class="title--secondary click" onclick="toggleModal()"
+              >about me.</b
+            >
           </p>
           <div class="social__list">
             <a
